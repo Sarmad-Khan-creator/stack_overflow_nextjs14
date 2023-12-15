@@ -11,7 +11,7 @@ import {
   MenubarMenu,
   MenubarTrigger,
 } from "@/components/ui/menubar";
-import { themes } from "@/constants/constants";
+import { themes } from "@/constants";
 
 const Theme = () => {
   const { mode, setMode } = useTheme();
